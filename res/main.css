@@ -1,0 +1,156 @@
+html {
+	height:100%;
+}
+
+body {
+	height:100%;
+}
+
+.maindiv {
+	margin-right: auto; 
+	margin-left: auto; 
+	width: 1280px; 
+	position: relative;
+	height:100%;
+}
+
+.contentdiv {
+	left:170px; right: 170px; width: 920px; 
+
+	position: absolute; 
+	padding: 10px;
+}
+
+.contentblock {
+	margin: 20px; 
+	border-style:solid; 
+	border-width: thin; 
+	border-radius: 5px; 
+	padding: 10px;
+	background-color: #ffffff;
+}
+
+.linkblock {
+	margin: 20px; 
+	border-style:solid; 
+	border-width: thin; 
+	border-radius: 5px; 
+	padding: 10px;
+	background-color: #d9d9d9;
+	text-align: center;
+}
+
+#content {
+	position: absolute;
+	top:80px;
+	bottom:10px;
+	overflow: auto;
+}
+
+
+body {
+	background-image: url(../img/background.jpeg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+h1 {
+	color: #800000;
+	margin-top: 0px;
+}
+
+h2 {
+	color: #800000
+}
+
+.previewsblock {
+	margin: 20px; 
+	border-style:solid; 
+	border-width: thin; 
+	border-radius: 5px; 
+	padding: 5px;
+	background-color: #d9d9d9;
+	text-align: center;
+}
+
+.gallerywrapper {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 400px;
+	height: 280px;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+	margin-top: 16px;
+}
+
+.my-gallery {
+    margin: 0 auto; 
+}
+
+
+
+.gallery-button {
+	position:absolute;
+	top:92px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
+    color: #fff!important;
+    background-color: #000000!important;
+}
+
+.gallery-button:hover {
+	color: #fff!important;
+    background-color: #616161!important;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	outline: 0;
+}
+
+.gallery-button-left {
+	left:5px;
+}
+
+.gallery-button-right {
+	right:5px;
+}
+
+.miniaturediv {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.previewlabel {
+	text-align: center;
+	font-style: italic;
+}
+
+.zoom-icon {
+	position:absolute;
+	bottom:74px;
+	right:10px;
+	pointer-events: none;
+}
+
+.pswp__caption__center {
+	font-size: 36px !important;
+	max-width: 800px !important;
+	text-align: center !important;
+	padding-bottom: 30px !important;
+}

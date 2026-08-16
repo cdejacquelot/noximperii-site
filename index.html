@@ -1,0 +1,595 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" 
+      type="image/png" 
+      href="img/logos/noximperii_32.png">
+    <title>Nox Imperii</title>
+    <link href="res/main.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" src="res/main.js"></script>
+    <!-- Le traceur Google Analytics (ga.js, propriété UA-25494969-1) a été
+         retiré lors de la restauration : ga.js « classic » est arrêté depuis
+         juillet 2023, le script ne faisait plus que ralentir la page. -->
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="res/photoswipe/dist/photoswipe.css">
+      <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+           In the folder of skin CSS file there are also:
+           - .png and .svg icons sprite, 
+           - preloader.gif (for browsers that do not support CSS animations) -->
+      <link rel="stylesheet" href="res/photoswipe/dist/default-skin/default-skin.css">
+        <!-- Core JS file -->
+        <script src="res/photoswipe/dist/photoswipe.min.js"></script>
+        <!-- UI JS file -->
+        <script src="res/photoswipe/dist/photoswipe-ui-default.min.js"></script>
+      </head>
+      <body>
+        <div class="maindiv">
+          <div class="contentdiv">
+            <table border="0" width="100%">
+              <tr>
+                <td colspan="3" align="right"></td>
+              </tr>
+              <tr>
+                <td colspan="3" valign="middle" align="center">
+                  <img src="img/logos/NoxImperii_big.png" />
+                  <br />
+                  <span class="maintitle">Version: 0.5.1</span>
+                </td>
+              </tr>
+            </table>
+            <div class="linkblock">Overview &middot; <a href="#download">Download</a> &middot; <a href="#requirements">Requirements</a> &middot; <a href="#contributing">Contributing</a> &middot; <a href="#naev">Naev</a></div>
+            <div style="float: right; margin: 40px 40px 20px 20px; text-align: center; border-style:solid; border-width: thin; border-radius: 5px; padding: 10px">Want more information?
+              <br>
+                <br>
+                  <!-- Le sous-forum Nox Imperii (viewforum.php?f=13) a disparu du
+                       phpBB de Naev : renvoi vers la racine du forum, toujours en ligne. -->
+                  <a href="https://forum.naev.org/">
+                    <img src="img/logos/phpBB.png" alt="Nox Imperii Forum" />
+                    <br />Nox Imperii forum, hosted by Naev
+                  </a>
+                </div>
+                
+                <div class="contentblock" id="overview">
+                  <h1>Nox Imperii Overview</h1>
+                  <p>The Empire of Terra, dominant power of this sector of the Galaxy, is in decline after centuries of expansion. As weak emperors and widespread corruption weaken the Terran realm, beyond the Imperial borders barbarian forces gather strength. Meanwhile, opposite Betelgeuse, the Empire's great rival prepares to challenge Imperial supremacy. Kicked out of Navy school but proud owner of a derelict shuttle, will you help the Empire recover, join force with its rival, or simply focus on surviving and prospering in a Galaxy that has seen better days?</p>
+                  <p>Nox Imperii follows the footstep of classics such as Elite, Freelancer or most closely Escape Velocity to put you in command of a spaceship with a Galaxy to explore. Trade, fight, perform missions, survey the wilderness, turn to piracy, it's all up to you - a huge, mostly random Galaxy awaits!</p>
+                </div>
+                <div class="previewsblock">
+                  <div class="gallerywrapper">
+                    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery1">
+                        <a href="img/slideshow/1_1_planets.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/1_1_planets.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Travel though rich systems</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery1">
+                        <a href="img/slideshow/1_2_galaxy.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/1_2_galaxy.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Explore a large and complex Galaxy</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery1">
+                        <a href="img/slideshow/1_3_commodities.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/1_3_commodities.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Trade rare commodities</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery1">
+                        <a href="img/slideshow/1_4_planet.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/1_4_planet.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Each world has its backstory</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery1">
+                        <a href="img/slideshow/1_5_news.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/1_5_news.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">And worlds can change quickly</figcaption>
+                      </figure>
+                    </div>
+                    <a class="gallery-button gallery-button-left" onclick="plusDivs(1,-1)">❮</a>
+                    <a class="gallery-button gallery-button-right" onclick="plusDivs(1,1)">❯</a>
+                    <img src="img/zoom.png" class="zoom-icon"/>
+                  </div>
+                  <div class="gallerywrapper">
+                    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery" class="gallery">
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery2">
+                        <a href="img/slideshow/2_1_explore.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/2_1_explore.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Leave civilized space to explore the dark reaches of the Galaxy</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery2">
+                        <a href="img/slideshow/2_2_natives.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/2_2_natives.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Meet exotic species producing rare resources</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery2">
+                        <a href="img/slideshow/2_3_barbarians.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/2_3_barbarians.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Fight your way past barbarian ships</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery2">
+                        <a href="img/slideshow/2_4_survey.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/2_4_survey.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Survey unknown worlds for gold and fame</figcaption>
+                      </figure>
+                    </div>
+                    <a class="gallery-button gallery-button-left" onclick="plusDivs(2,-1)">❮</a>
+                    <a class="gallery-button gallery-button-right" onclick="plusDivs(2,1)">❯</a>
+                    <img src="img/zoom.png" class="zoom-icon"/>
+                  </div>
+                </div>
+                <div class="linkblock"><a href="#overview">Overview</a> &middot; Download &middot; <a href="#requirements">Requirements</a> &middot; <a href="#contributing">Contributing</a> &middot; <a href="#naev">Naev</a></div>
+                <div class="contentblock" id="download">
+                  <h1>Nox Imperii 0.5.1 Download</h1>
+                  <p>Nox Imperii is currently in alpha. Bugs and unfinished content are not rare!</p>
+                  <table border=0 width=100% cellpadding="3">
+                    <tr>
+                      <td width=50%>
+                        <!-- Le binaire Windows était servi par un lien goo.gl pointant sur
+                             un Dropbox aujourd'hui éteint, et l'archive n'a été retrouvée
+                             ni sur la Wayback Machine ni en local. Si le .7z réapparaît,
+                             en faire une release GitHub et rétablir le lien ici. -->
+                        <h3>
+                          Windows build
+                          <span style="font-weight: normal; font-size: 0.8em">(the pre-packaged archive is no longer hosted)</span>
+                        </h3>
+                        <h3>
+                          <a href="https://github.com/Kinniken/NoxImperii/tree/NI-0.5.1">Git tag (for development or building on Linux)</a>
+                        </h3>
+                      </td>
+                      <td width=50%>
+                        <p>
+                          <b>0.5.1 - 28/10/16</b>
+                          <br />- New looting system; piracy now pays!<br />
+- Individual names for AI ships<br />
+- Big price re-balancing to make player progression not quite as fast<br />
+- Improved shipyard UI, to make it easier to compare ships<br />
+- Purchasable maps of surrounding systems<br />
+- Many smaller tweaks and fixes
+                        </p>
+                      </td>
+                    </tr>
+                  </table>
+                  <p>Key features:</p>
+                  <ul>
+                    <li>Near-infinite Galaxy of (mostly) random systems</li>
+                    <li>Seamless travel and ship-to-ship fighting</li>
+                    <li>Dynamic trade system, affected by changes in the world</li>
+                    <li>Missions with effects on the Galaxy, both quests and random</li>
+                    <li>Dozens of ships, all buyable by the player</li>
+                    <li>Survey of worlds beyond known space, with random events and rewards</li>
+                    <li>Large selection of weapons and outfits, often faction-specific</li>
+                    <li>Hireable crew members providing varied bonuses</li>
+                  </ul>
+                  <p>Nox Imperii is based on the great open-source game
+                    <a href="https://naev.org/">Naev</a>; it uses a modified version of its game engine and a lot of its art work. Check the Naev tab for more info!
+                  </p>
+                  <p>Nox Imperii also uses some cool ship artwork from
+                    <a href="http://hoshikaze.net/portail/index.php">Hoshikaze</a>.
+                  </p>
+                </div>
+                <div class="previewsblock">
+                  <div class="gallerywrapper">
+                    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery" class="gallery">
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery3">
+                        <a href="img/slideshow/3_1_ships.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/3_1_ships.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Buy new, more powerful ships</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery3">
+                        <a href="img/slideshow/3_2_equipment.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/3_2_equipment.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Fine-tune your equipment choice to follow your playstyle</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery3">
+                        <a href="img/slideshow/3_3_crews.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/3_3_crews.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Recruit crew members to improve your ship's capacities</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery3">
+                        <a href="img/slideshow/3_4_piracy.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/3_4_piracy.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Use your new power for good... or turn to piracy...</figcaption>
+                      </figure>
+					  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery3">
+                        <a href="img/slideshow/3_5_loot.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/3_5_loot.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">...and reap the spoils of war</figcaption>
+                      </figure>
+                    </div>
+                    <a class="gallery-button gallery-button-left" onclick="plusDivs(3,-1)">❮</a>
+                    <a class="gallery-button gallery-button-right" onclick="plusDivs(3,1)">❯</a>
+                    <img src="img/zoom.png" class="zoom-icon"/>
+                  </div>
+                  <div class="gallerywrapper">
+                    <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery" class="gallery">
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery4">
+                        <a href="img/slideshow/4_1_backstory.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/4_1_backstory.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Read up on your backstory</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery4">
+                        <a href="img/slideshow/4_2_loading.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/4_2_loading.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Learn more about the key factions</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery4">
+                        <a href="img/slideshow/4_3_storyline.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/4_3_storyline.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Follow the multi-ended storyline</figcaption>
+                      </figure>
+                      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="miniaturediv gallery4">
+                        <a href="img/slideshow/4_4_combat.png" itemprop="contentUrl" data-size="1600x900">
+                          <img src="img/slideshow/previews/4_4_combat.png" itemprop="thumbnail" alt="Image description" />
+                        </a>
+                        <figcaption itemprop="caption description" class="previewlabel">Defend the Empire or side with its enemies!</figcaption>
+                      </figure>
+                    </div>
+                    <a class="gallery-button gallery-button-left" onclick="plusDivs(4,-1)">❮</a>
+                    <a class="gallery-button gallery-button-right" onclick="plusDivs(4,1)">❯</a>
+                    <img src="img/zoom.png" class="zoom-icon"/>
+                  </div>
+                </div>
+                <div class="linkblock"><a href="#overview">Overview</a> &middot; <a href="#download">Download</a> &middot; Requirements &middot; <a href="#contributing">Contributing</a> &middot; <a href="#naev">Naev</a></div>
+                <div class="contentblock" id="requirements">
+                	<h1>Technical requirements</h1>
+                	
+                	<ul><li>Linux, FreeBSD or Windows.</li>
+						<li>Core i3 processor or equivalent.</li>
+						<li>2 GB of free RAM.</li>
+						<li>1024 MB of video memory</li>
+						<li>500 MB of free disk space.</li>
+					</ul>
+                
+                	<p>The Windows version is available pre-packaged, the Linux and FreeBSD ones must be compiled from source. See the <!-- wiki.naev.org ne résout plus (NXDOMAIN) : les instructions de
+                	     compilation vivent désormais dans le README du dépôt Naev. -->
+                	<a href="https://github.com/naev/naev#compiling">Naev instructions</a> for more information.</p>
+                </div>
+                <div class="linkblock"><a href="#overview">Overview</a> &middot; <a href="#download">Download</a> &middot; <a href="#requirements">Requirements</a> &middot; Contributing &middot; <a href="#naev">Naev</a></div>
+                <div class="contentblock"  id="contributing">
+                  <h1>Contributing to Nox Imperii</h1>
+                  <p>Nox Imperii is open-source and contributions are welcome! The best is to discuss it with me (Kinniken) first, either on the forum or by mail to
+                    <a href="mailto:cedric@kstudio.net">cedric@kstudio.net</a>.
+                    <p>There are three main areas where you can contribute:</p>
+                    <h2>Graphics</h2>
+                    <p>Nox Imperii is in dire need of new graphics. This includes mainly, in rough order of priority:</p>
+                    <ul>
+                      <li>2D portraits for crew members and mission characters, particularly for alien races</li>
+                      <li>3D ships (rendered in 2D in game), mostly for civilians. Nox Imperii currently uses many ships borrowed from other games</li>
+                      <li>Other 2D elements such as landscapes, commodity pictures etc.</li>
+                      <li>3D outfits (rendered as 2D), all the current ones are from Naev</li>
+                    </ul>
+                    <h2>Code</h2>
+                    <p>Nox Imperii uses a modified version of the Naev engine, written in C. Help with new features is always welcome, whether they are for Nox Imperii itself or for both Naev and it. Check the
+                      <a href="https://github.com/Kinniken/NoxImperii">Git repository</a> on GitHub.
+                    </p>
+                    <h2>Missions, events and other scripting</h2>
+                    <p>Like Naev, Nox Imperii uses Lua script files to handle missions, events, planet generation and other actions. Some require descent scripting skills (missions in particular), some are mainly content writing (random events and new planet types for example).</p>
+                    <p>Have a look at the content of the dat folder for more details, or if you are good at writing but not so much at scripting, contact me about it.</p>
+                  </div>
+                  <div class="linkblock"><a href="#overview">Overview</a> &middot; <a href="#download">Download</a> &middot; <a href="#requirements">Requirements</a> &middot; <a href="#contributing">Contributing</a> &middot; Naev</div>
+                  <div class="contentblock"  id="naev">
+                    <h1>Naev and Nox Imperii</h1>
+                    <img src="img/logos/naev_large.png" style="float: right; margin: 0 0 10px 10px;">
+                      <p>Nox Imperii would not exist without Naev, from which it borrows roughly:</p>
+                      <ul>
+                        <li>95% of the C code</li>
+                        <li>50% of its art assets</li>
+                        <li>10% of the events and mission scripts</li>
+                      </ul>
+                      <p>The main Nox Imperii features that are not in the base Naev game are:</p>
+                      <ul>
+                        <li>The random systems and planets</li>
+                        <li>The dynamic trade system</li>
+                        <li>The crew system</li>
+                        <li>Missions and events affecting the universe</li>
+                      </ul>
+                      <p>Everything else is from Naev, though heavily adapted for a new universe.</p>
+                      <p>Technically, Nox Imperii is a Git fork of the original Naev repository. Patches to Naev often make their way to Nox Imperii too, and some Nox Imperii features are considered for inclusion in Naev.</p>
+                      <p>Want to check out Naev a bit more? See their
+                        <a href="https://forum.naev.org/">forum</a>,
+                        <a href="https://naev.org/">download page</a>and
+                        <a href="https://github.com/naev/naev">Git repository</a>!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Root element of PhotoSwipe. Must have class pswp. -->
+                <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                  <!-- Background of PhotoSwipe. 
+                           It's a separate element as animating opacity is faster than rgba(). -->
+                  <div class="pswp__bg"></div>
+                  <!-- Slides wrapper with overflow:hidden. -->
+                  <div class="pswp__scroll-wrap">
+                    <!-- Container that holds slides. 
+                                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                                Don't modify these 3 pswp__item elements, data is added later on. -->
+                    <div class="pswp__container">
+                      <div class="pswp__item"></div>
+                      <div class="pswp__item"></div>
+                      <div class="pswp__item"></div>
+                    </div>
+                    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                    <div class="pswp__ui pswp__ui--hidden">
+                      <div class="pswp__top-bar">
+                        <!--  Controls are self-explanatory. Order can be changed. -->
+                        <div class="pswp__counter"></div>
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                        <button class="pswp__button pswp__button--share" title="Share"></button>
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                          <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                              <div class="pswp__preloader__donut"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                        <div class="pswp__share-tooltip"></div>
+                      </div>
+                      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                      <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+<script type="text/javascript">
+                
+var slideIndex =[1,1,1,1,1];
+
+showDivs(1,1);
+showDivs(2,1);
+showDivs(3,1);
+showDivs(4,1);
+
+function plusDivs(galleryId,n) {
+  showDivs(galleryId,slideIndex[galleryId] += n);
+}
+
+function showDivs(galleryId,n) {
+  var i;
+  var x = document.getElementsByClassName("gallery"+galleryId);
+  
+  if (n > x.length) {
+  	slideIndex[galleryId] = 1
+  }
+  if (n < 1) {
+  	slideIndex[galleryId] = x.length
+  }
+  
+  for (i = 0; i < x.length; i++) {
+  	x[i].style.display = "none";
+  } 
+  
+  x[slideIndex[galleryId]-1].style.display = "block"; 
+}
+                  
+                  
+var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+    // parse slide data (url, title, size ...) from DOM elements 
+    // (children of gallerySelector)
+    var parseThumbnailElements = function(el) {
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            figureEl,
+            linkEl,
+            size,
+            item;
+
+        for(var i = 0; i < numNodes; i++) {
+
+            figureEl = thumbElements[i]; // <figure> element
+
+            // include only element nodes 
+            if(figureEl.nodeType !== 1) {
+                continue;
+            }
+
+            linkEl = figureEl.children[0]; // <a> element
+
+            size = linkEl.getAttribute('data-size').split('x');
+
+            // create slide object
+            item = {
+                src: linkEl.getAttribute('href'),
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
+            };
+
+
+
+            if(figureEl.children.length > 1) {
+                // <figcaption> content
+                item.title = figureEl.children[1].innerHTML; 
+            }
+
+            if(linkEl.children.length > 0) {
+                // <img> thumbnail element, retrieving thumbnail url
+                item.msrc = linkEl.children[0].getAttribute('src');
+            } 
+
+            item.el = figureEl; // save link to element for getThumbBoundsFn
+            items.push(item);
+        }
+
+        return items;
+    };
+
+    // find nearest parent element
+    var closest = function closest(el, fn) {
+        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+    };
+
+    // triggers when user clicks on thumbnail
+    var onThumbnailsClick = function(e) {
+        e = e || window.event;
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        var eTarget = e.target || e.srcElement;
+
+        // find root element of slide
+        var clickedListItem = closest(eTarget, function(el) {
+            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+        });
+
+        if(!clickedListItem) {
+            return;
+        }
+
+        // find index of clicked item by looping through all child nodes
+        // alternatively, you may define index via data- attribute
+        var clickedGallery = clickedListItem.parentNode,
+            childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
+            nodeIndex = 0,
+            index;
+
+        for (var i = 0; i < numChildNodes; i++) {
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
+            }
+
+            if(childNodes[i] === clickedListItem) {
+                index = nodeIndex;
+                break;
+            }
+            nodeIndex++;
+        }
+
+
+
+        if(index >= 0) {
+            // open PhotoSwipe if valid index found
+            openPhotoSwipe( index, clickedGallery );
+        }
+        return false;
+    };
+
+    // parse picture index and gallery index from URL (#&pid=1&gid=2)
+    var photoswipeParseHash = function() {
+        var hash = window.location.hash.substring(1),
+        params = {};
+
+        if(hash.length < 5) {
+            return params;
+        }
+
+        var vars = hash.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            if(!vars[i]) {
+                continue;
+            }
+            var pair = vars[i].split('=');  
+            if(pair.length < 2) {
+                continue;
+            }           
+            params[pair[0]] = pair[1];
+        }
+
+        if(params.gid) {
+            params.gid = parseInt(params.gid, 10);
+        }
+
+        return params;
+    };
+
+    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+        var pswpElement = document.querySelectorAll('.pswp')[0],
+            gallery,
+            options,
+            items;
+
+        items = parseThumbnailElements(galleryElement);
+
+        // define options (if needed)
+        options = {
+
+            // define gallery index (for URL)
+            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+            getThumbBoundsFn: function(index) {
+                // See Options -> getThumbBoundsFn section of documentation for more info
+                var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                    rect = thumbnail.getBoundingClientRect(); 
+
+                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+            }
+
+        };
+
+        // PhotoSwipe opened from URL
+        if(fromURL) {
+            if(options.galleryPIDs) {
+                // parse real index when custom PIDs are used 
+                // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                for(var j = 0; j < items.length; j++) {
+                    if(items[j].pid == index) {
+                        options.index = j;
+                        break;
+                    }
+                }
+            } else {
+                // in URL indexes start from 1
+                options.index = parseInt(index, 10) - 1;
+            }
+        } else {
+            options.index = parseInt(index, 10);
+        }
+
+        // exit if index not found
+        if( isNaN(options.index) ) {
+            return;
+        }
+
+        if(disableAnimation) {
+            options.showAnimationDuration = 0;
+        }
+
+        // Pass data to PhotoSwipe and initialize it
+        gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    // loop through all gallery elements and bind events
+    var galleryElements = document.querySelectorAll( gallerySelector );
+
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        galleryElements[i].setAttribute('data-pswp-uid', i+1);
+        galleryElements[i].onclick = onThumbnailsClick;
+    }
+
+    // Parse URL and open gallery if it contains #&pid=3&gid=1
+    var hashData = photoswipeParseHash();
+    if(hashData.pid && hashData.gid) {
+        openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+    }
+};
+    // execute above function
+initPhotoSwipeFromDOM('.my-gallery');                          
+         </script>                     
+	</body>
+</html>
